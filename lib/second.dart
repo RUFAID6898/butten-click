@@ -44,7 +44,10 @@ class _HomeScreenState extends State<HomeScreen> {
               // ElevatedButton(
               //     onPressed:name,
               //     child: Text('press'))
-              ElevatedButton(onPressed: hoi, child: const Text('press')),
+              ElevatedButton(
+                onPressed: hoi,
+                child: const Text('press'),
+              ),
               Text(name)
             ],
           ),
